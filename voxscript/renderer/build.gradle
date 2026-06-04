@@ -1,0 +1,4 @@
+// renderer — output targets (HTML, PDF, LaTeX)
+dependencies {
+    implementation project(':core')
+}

@@ -1,0 +1,6 @@
+#!/bin/bash
+# VoxScript launcher
+# Place this in your PATH alongside vox.jar, or set VOX_JAR env var
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+JAR="${VOX_JAR:-$SCRIPT_DIR/dist/vox.jar}"
+exec java -jar "$JAR" "$@"

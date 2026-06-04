@@ -1,0 +1,6 @@
+// server — live preview dev server
+// Uses Java's built-in HttpServer — zero external dependencies.
+dependencies {
+    implementation project(':core')
+    implementation project(':renderer')
+}

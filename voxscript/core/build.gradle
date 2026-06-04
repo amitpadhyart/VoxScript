@@ -1,0 +1,6 @@
+// core — the VoxScript language engine
+// No external dependencies. This is intentional.
+// The core must remain pure Java with zero runtime deps.
+dependencies {
+    // nothing — pure Java 21
+}
