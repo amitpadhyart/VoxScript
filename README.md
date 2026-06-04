@@ -1,4 +1,5 @@
-# VoxScript
+
+# VoxScript (My Vision)
 
 **The modern document language.** Clean syntax, semantic structure, outputs HTML + LaTeX + PDF.
 
